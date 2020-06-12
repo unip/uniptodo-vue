@@ -1,9 +1,5 @@
 @tailwind base;
 
-@tailwind components;
-
-@tailwind utilities;
-
 html {
     @apply h-full;
 }
@@ -25,10 +21,15 @@ p {
     @apply mb-3;
 }
 
+@tailwind components;
+
 .delete {
-    @apply  block bg-red-600 px-2 py-1 rounded-full text-white;
+    @apply  block text-red-600 transition ease-in-out duration-300;
     font-size: 0.75rem;
 }
 .delete:hover {
-    @apply  bg-red-500;
+    @apply  text-red-500;
 }
+
+@tailwind utilities;
+
