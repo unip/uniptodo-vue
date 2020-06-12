@@ -1,4 +1,4 @@
-# unipstudio-vue
+# uniptodo-vue
 
 ## Project setup
 ```
